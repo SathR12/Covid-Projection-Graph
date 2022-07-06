@@ -1,0 +1,11 @@
+from chart import *
+
+if __name__ == "__main__":
+    covid_graph = Diagram({2018: 10, 2019: 20})
+    covid_graph.set_title("COVID-19 Cases")
+    covid_graph.set_dimensions(10, 4)
+    covid_graph.set_legend("Cases")
+    covid_graph.set_x_increment(1)
+    covid_graph.initialize_graph(clr = "cyan", width = 0.2, labelx = "Years", labely = "Cases in Millions")
+    covid_graph.show_graph()
+
