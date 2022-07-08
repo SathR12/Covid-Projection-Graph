@@ -4,7 +4,9 @@ Outputs a graph with the number of covid cases per year and projects for the nex
 ## Dependencies
 
 requests
+
 json
+
 matplotlib
 
 ## Resources and request page
